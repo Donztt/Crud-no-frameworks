@@ -43,7 +43,7 @@ const handleSignUp = () => {
   })
     .then(() => {
       alert("Usuario cadastrado com sucesso");
-      window.location.replace("/src/HTML/ListaUsuario.html");
+      window.location.replace("../HTML/ListaUsuario.html");
     })
     .catch((err) => alert(err));
 };

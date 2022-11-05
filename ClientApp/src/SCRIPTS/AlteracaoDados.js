@@ -58,7 +58,7 @@ const editItem = () => {
     },
   }).then(() => {
     alert("usuário alterado com sucesso");
-    window.location.replace("/src/HTML/ListaUsuario.html");
+    window.location.replace("../HTML/ListaUsuario.html");
   });
 };
 
@@ -72,7 +72,7 @@ function deleteItem() {
     url: path + "/deletePessoa/" + id,
   }).then(() => {
     alert("Usuário deletado com Sucesso!");
-    window.location.replace("/src/HTML/ListaUsuario.html");
+    window.location.replace("../HTML/ListaUsuario.html");
   });
 }
 
