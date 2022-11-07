@@ -39,6 +39,7 @@ const handleSignUp = () => {
       nome: nome.value,
       login: login.value,
       senha: senha.value,
+      estado: estado.value,
     },
   })
     .then(() => {
